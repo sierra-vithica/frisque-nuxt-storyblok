@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  name: 'GridBlok',
   props: {
     blok: {
       type: Object,

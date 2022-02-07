@@ -8,7 +8,6 @@
 
 <script>
 export default {
-  name: 'FeatureBlok',
   props: {
     blok: {
       type: Object,
