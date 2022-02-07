@@ -16,8 +16,8 @@
 ## ✅ System Requirements
 
 - Unix-like OS (windows support is limited atm)
-- Node Version >= 16.13.2
-- NPM Version >= 8.1.2
+- Node Version 14.18.3 (fermium)
+- NPM Version >= 6.14.5
 
 ## 💻 Build Setup
 

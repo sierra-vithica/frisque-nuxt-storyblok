@@ -31,10 +31,13 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // Layer 0
+    ['@layer0/nuxt/module', { layer0SourceMaps: true }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/image',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     [
@@ -54,4 +57,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Storyblok provider for NuxtImg https://image.nuxtjs.org/providers/storyblok
+  image: {
+    storyblok: {
+      baseURL: 'https://img2.storyblok.com',
+    },
+  },
 }
